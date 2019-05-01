@@ -38,7 +38,7 @@ public class Student {
     }
 
     //Anonymous class Type-4
-    public Void generateStatus(String status) {
+    public void  generateStatus(String status) {
 
         new Object() {
             public void setStatus() {
@@ -47,7 +47,7 @@ public class Student {
 
             }
         }.setStatus();
-        return null;
+
     }
 
 }

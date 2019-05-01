@@ -17,5 +17,8 @@ public class Application {
 
         //Anonymous class Type-4
         student.generateStatus("Passed");
+
+
+
     }
 }
